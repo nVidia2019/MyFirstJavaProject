@@ -10,7 +10,7 @@ public class Calc {
 		}
 		
 		public Calc minus (int num) {
-			result -= num;
+			result -= num; 
 			return this;
 		}
 		
