@@ -11,5 +11,9 @@ public static void main(String[] args) {
 	System.out.println(msg2.toString());
 	System.out.println(msg3.toString());
 	System.out.println(msg4);
+	
+	StringBuilder stb = new StringBuilder("A");
+	stb.append("B").append("C").append("D").insert(0, "J");
+	System.out.println(stb);
 }
 }

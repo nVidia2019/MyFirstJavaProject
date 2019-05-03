@@ -22,7 +22,7 @@ public class Profile {
 		System.out.println("Your location: " + location);
 		System.out.println(firstName + ", how old are you?");
 		age = input.nextInt();
-		System.out.println("Your age: " + age);
+		System.out.println("Your age: " + age); // test comment: change for GitHub;
 	 	
 	}
 
